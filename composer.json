@@ -1,0 +1,29 @@
+{
+    "name": "kikero/kikero-package",
+    "description": "Kikero Laravel Repository",
+    "require": {
+
+    },
+    "require-dev": {
+
+    },
+    "authors": [
+        {
+            "name": "Roberto Rizzo",
+            "email": "info@genin.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kikero\\KikeroLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kikero\\Providers\\TextManagerProvider"
+            ]
+        }
+    }
+
+}
